@@ -1,12 +1,10 @@
 # fixed-income-api
 
-![CI](https://github.com/SEU-USUARIO/fixed-income-api/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Gabrieltbernardes/fixed-income-api/actions/workflows/ci.yml/badge.svg)
 
 API REST em Spring Boot que simula aplicações de renda fixa (CDB, LCI e LCA) e devolve
 valor bruto, IR pela tabela regressiva e valor líquido. É stateless: não usa banco,
 autenticação ou integrações externas.
-
-> Troque `SEU-USUARIO` no badge acima pelo seu usuário do GitHub (em minúsculas).
 
 ## Como rodar
 
