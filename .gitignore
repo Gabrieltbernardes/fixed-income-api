@@ -1,0 +1,18 @@
+target/
+!.mvn/wrapper/*.java
+
+### IDEs ###
+.idea/
+*.iml
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+bin/
+out/
+
+### SO ###
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: fixed-income-api
+  jackson:
+    deserialization:
+      # "prazoDias": 30.5 vira 400 em vez de ser truncado para 30
+      accept-float-as-int: false
+
+server:
+  port: 8080
+  error:
+    include-stacktrace: never
+    include-message: never
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
