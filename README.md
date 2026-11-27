@@ -126,7 +126,7 @@ Fora do escopo: IOF, come-cotas, marcação a mercado, persistência e busca aut
 ## Estrutura
 
 ```text
-src/main/java/com/exemplo/fixedincome
+src/main/java/io/github/gabrieltbernardes/fixedincome
 ├── api            controllers, DTOs, validação e handler de erros
 ├── application    SimulacaoService (orquestra o cálculo)
 └── domain         regras puras em Java, sem Spring

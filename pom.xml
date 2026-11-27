@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.exemplo</groupId>
+    <groupId>io.github.gabrieltbernardes</groupId>
     <artifactId>fixed-income-api</artifactId>
     <version>1.0.0</version>
     <name>fixed-income-api</name>
@@ -97,7 +97,7 @@
                                 <rule>
                                     <element>PACKAGE</element>
                                     <includes>
-                                        <include>com.exemplo.fixedincome.domain</include>
+                                        <include>io.github.gabrieltbernardes.fixedincome.domain</include>
                                     </includes>
                                     <limits>
                                         <limit>
